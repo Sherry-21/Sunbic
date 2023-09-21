@@ -1,0 +1,453 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+#logo{
+    /* display:flex;
+    justify-content:center; */
+    margin-left : 10px;
+    padding-top : 10px;
+}
+  
+#gambar1{
+    width : 90px; 
+    height : 90px;
+    vertical-align: middle;
+}
+
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+    width : 1140px;
+}
+  
+header {
+    background-color: #3e4243;
+    width : 300px;
+    height : 100vh;
+    position : sticky;
+    top : 0;
+    border-right : 2px solid #000
+}
+
+ul{
+    margin-top : 160px;
+}
+
+li a{
+    position : relative;
+    font-family: 'Poppins';
+    display: block;
+    font-size: 19px;
+    text-align:center;
+    padding : 15px;
+}
+
+.utama{
+    background-color: #8a8a8a;
+    color : #e3e3e3; 
+}
+
+li.sub a:hover{
+    color : #000000; 
+    background-color: #dfdfdf;
+    transition: all 0.5s;
+}
+
+a:link, a:visited {
+    color: #f0f0f0;
+}
+
+label.logo{
+    font-family : "Poppins";
+    color : #dbdbdb;
+    vertical-align: middle;
+    font-weight : 900;
+    font-size : 46px;
+    letter-spacing: 5px;
+}
+
+/* header */
+
+.space-between{
+    display:flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.parent{
+    display: flex;
+}
+
+.judul{
+    display:flex;
+    justify-content: center;
+    font-family : "Poppins";
+    color : #000000;
+    font-weight : 900;
+    font-size : 26px;
+    margin-top : 15px;
+}
+
+/* facility */
+
+    /* bagian atas */
+    #bagian-atas{
+        margin-top : 15px;
+        display : flex;
+        justify-content : space-between;
+        align-items : center;
+    }
+
+    #back-button{
+        text-align : center;
+        padding-top : 1px;
+        font-size : 40px;
+        font-weight : 600;
+        border : 3px solid #000;
+        border-radius: 50%;
+        height : 50px;
+        width : 50px;
+    }
+
+    #back-button:hover{
+        background-color : #0b0b0b;
+        color : #ffffff;
+    }
+    
+    #bagian-atas a:visited{
+        color : #000;
+    }
+
+    #tulisan-judul{
+        font-family : "Poppins";
+        color : #1e1e1e;
+        font-weight : 900;
+        font-size : 45px;
+        margin-top : 15px;
+    }
+
+    #garis-bawah{
+        width : 100%;
+        height : 0px;
+        background : #000000;
+        border: 2px solid #000000;
+    }
+
+    /* bagian isi */
+
+    #border-utama-fac{
+        border-radius : 30px;
+        border : 3px solid #000000;
+        margin-top: 30px;
+    }
+
+    #utama-fac{
+        margin : 50px;
+    }
+
+    .overflows{
+        overflow: hidden;
+        height : 260px;
+        width : 260px;
+        border-radius : 50px;
+        border : 3px solid #3a3a3a;
+        box-shadow: 1px 1px 5px black;
+    }
+
+    .baris-kanan{
+        display : flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top : 10px;
+    }
+
+    .baris-kiri{
+        display : flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top : 10px;
+    }
+
+    .gambar-fac{
+        height : 260px;
+        width : 260px;
+        border-radius : 45px;
+        transition : all 0.3s ease-in-out;
+    }
+
+    .gambar-fac:hover{
+        transform: scale(1.5); 
+        transition : all 0.3s ease-in-out;
+    }
+
+    .nama-fac{
+        font-family : "Poppins";
+        color : #000000;
+        font-weight : 700;
+        font-size : 28px;
+        margin : 0px 30px;
+    }
+
+
+/* programs */
+#bagian-atas-programs{
+    margin-top : 15px;
+}
+
+#home{
+    font-family : "Poppins";
+    color : #000000;
+    font-weight : 900;
+    font-size : 45px;
+}
+
+#welcome{
+    font-family : "Poppins";
+    color : #1e1e1e;
+    font-weight : 900;
+    font-size : 25px;
+    margin-top : 25px;
+}
+
+.space-between{
+    display:flex;
+    justify-content: space-between;
+}
+
+#bagian-atas-prog{
+    display : flex;
+}
+
+#nav-prog{
+    display : flex;
+    margin-top : 40px;
+}
+
+.tulisan-prog{
+    font-family : "Poppins";
+    color : #000000;
+    font-weight : 700;
+    font-size : 22px;
+    margin-right : 20px;
+    padding : 10px;
+    border : 2px solid #000;
+    border-radius : 20px;
+    transition : all 0.2s ease-in;  
+}
+
+.tulisan-prog:hover{
+    background-color : #d4d4d4;
+    color : #050404;
+    transition : all 0.2s ease-in;
+}
+
+.tulisan-prog-act{
+    font-family : "Poppins";
+    background-color : #4d4d4d;
+    color : #ffffff;
+    font-weight : 700;
+    font-size : 22px;
+    margin-right : 20px;
+    padding : 10px;
+    border : 2px solid #000;
+    border-radius : 20px;
+}
+/* undergraduate */
+
+#undergrad{
+    /* width : 100%; */
+    height : 480px;
+    /* border : 1px solid #000000; */
+    margin-top : 30px;
+    display : flex;
+    overflow : hidden;
+    overflow-x : scroll;
+}
+
+.fakul{
+    min-width : 33%;
+    /* height : 410px; */
+    margin-bottom : 20px;
+    border : 2px solid #000;
+    border-radius : 20px;
+    margin-top : 20px;
+    transition : all 0.3s ease-in;
+    margin-right : 40px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.fakul-ujung{
+    min-width : 33%;
+    /* height : 410px; */
+    margin-bottom : 20px;
+    border : 2px solid #000;
+    border-radius : 20px;
+    margin-top : 20px;
+    transition : all 0.3s ease-in;
+    box-shadow: 1px 1px 5px black;
+    /* margin-right : 40px; */
+}
+
+.fakul:hover{
+    background : #4d4d4d;
+    color : #ffffff;
+    transition : all 0.3s ease-out;
+    border :1px solid #000000;
+}
+
+.fakul:hover .garis-bawah-fakul{
+    background : #ffffff;
+    border: 1px solid #afafaf;
+}
+
+.fakul-ujung:hover{
+    background : #4d4d4d;
+    color : #ffffff;
+    transition : all 0.3s ease-out;
+    border :1px solid #ffffff;
+}
+
+.fakul-ujung:hover .garis-bawah-fakul{
+    background : #ffffff;
+    border: 1px solid #afafaf;
+}
+
+.judul-fakul{
+    font-family : "Poppins";
+    /* color : #000000; */
+    font-weight : 700;
+    font-size : 22px;
+}
+
+.garis-bawah-fakul{
+    /* width : 100%; */
+    height : 0px;
+    margin-top : 5px;
+    background : #000000;
+    border: 1px solid #000000;
+}
+
+.kelompok{
+    margin : 15px;
+    /* color : #ff0000; */
+}
+
+.kelompok-jurusan{
+}
+
+
+.jurusan{
+    font-family : "Poppins";
+    /* color : #000000; */
+    font-weight : 700;
+    font-size : 18px;
+    margin-top : 15px;
+}
+
+/* webkit */
+::-webkit-scrollbar{
+    width : 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #828181; 
+    /* border-radius: 10px; */
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(55, 55, 55); 
+    /* border-radius: 10px; */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(106, 106, 106); 
+  }
+
+/* footer */
+
+footer{
+    margin-top : 50px;
+    width : 100%;
+    height : 85px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-top : 3px solid #000000;
+}
+
+#space-between-footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top : 10px;
+    align-items : center;
+    margin-right : 10px;
+    margin-left : 10px;
+}
+
+#tulisan-footer {
+    font-family : "Poppins";
+    color : #1d1d1d;
+    /* vertical-align: middle; */
+    font-weight : 900;
+    font-size : 46px;
+    letter-spacing: 5px;
+
+}
+
+#footer-tengah{
+    display : flex;
+    align-items : center;
+}
+
+.findusat {
+    font-family: 'Poppins';
+    text-align: center;
+    /* position: absolute; */
+    font-size : 32px;
+    font-weight: bold;
+    display : inline-block;
+    margin-right : 10px;
+}
+
+#kelompok-img{
+    display : flex;
+    display : inline-block;
+}
+
+.instagram {
+    width : 73px;
+    height : 57px;
+}
+
+.facebook {
+    width : 73px;
+    height : 57px;
+}
+
+.link-gambar:hover{
+    opacity : 0.5;
+}
+
+#copyright {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top : 25px;
+    /* align-self: center; */
+}
